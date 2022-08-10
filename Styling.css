@@ -1,0 +1,92 @@
+*{
+    font-family: 'Lora', serif;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color:  #999b85;
+    position: static;
+    background: #999b85;
+    padding: 10px 0px 0px 0px;
+    margin: 10px;
+   text-transform: capitalize;
+}
+header img{
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.headList{
+    display: inline-block;
+    vertical-align: middle;
+    position: static;
+    padding-left:60%;
+}
+ul >*{
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+}
+ul li a{
+text-decoration: none;
+color: #f0d9d1;
+background-color: #737460aa;
+padding: 10px;
+}
+.headItem:hover{
+    color: #f0d9d1;
+    background: #999b85;
+    transition: ease-in-out , 2s;
+}
+body{
+    background-color: #f0d9d1;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+.child{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+   padding: 0px;
+   margin: 0px;
+
+}
+main div div img{
+    max-width: 100%;
+    background-color:rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    }
+/* main{
+    text-align: center;
+}
+main div div{
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+   vertical-align: top;
+}
+main div div img{
+max-width: 100%;
+background-color:rgb(255, 255, 255);
+width: 200px;
+height: 200px;
+vertical-align: middle;
+}
+main div img{
+    background-color: #999b85a4;
+    width: 100%
+}
+main >div div{
+    display: inline-block;
+    padding: 20px;
+    
+} */
